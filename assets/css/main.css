@@ -7,17 +7,25 @@
   font-display: swap;
 }
 
-body {
-  background: #eee;
-  text-align: center;
-  padding-top: 30px;
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  font-family: 'Montserrat';
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
-.content {
-  margin-top: 100px;
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+[hidden] {
+  display: none;
+}
+section, main, footer, header, article {
+  display: block;
+}
+html,
+body {
+  width: 100%;
+  margin: 0;
+	background: #eee;
+  font-family: 'Montserrat';
 }
